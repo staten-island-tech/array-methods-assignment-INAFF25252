@@ -37,7 +37,7 @@ const vtubers = [{
 ];
 console.log();
 vtubers.forEach((vtuber) => console.log(vtuber.firstName)); 
-const graduates = students.filter((student)=> student.graduated ===true);
+const graduated = students.filter((student)=> student.graduated ===true);
 console.log(graduates);
 vtubers.forEach(function (vtuber) {
     console.log(vtuber);
