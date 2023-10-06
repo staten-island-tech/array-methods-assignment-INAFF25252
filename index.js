@@ -1,4 +1,4 @@
-const Ina = {
+const vtubers = [{
     firstName: "Ina'nis",
     lastName: "Ninomae",
     DOB: 1999,
@@ -6,11 +6,11 @@ const Ina = {
     age: function () {
         return year - this.DOB;
     },
-    siblings: {},
+    siblings: ["Ane"],
     spouse: null,
-    interests: [Puns, Drawing, Sleeping, Gaming],
-}
-const Mumei = {
+    interests: ["Puns", "Drawing", "Sleeping", "Gaming"],
+},
+{
     firstName: "Mumei",
     lastName: "Nanashi",
     DOB: 0,
@@ -18,11 +18,11 @@ const Mumei = {
     age: function () {
         return year - this.DOB;
     },
-    siblings: {},
+    siblings: [],
     spouse: null,
-    interests: [Drawing, Destroying, Gaming, Singing],
-}
-const Pomu = {
+    interests: ["Drawing", "Destroying", "Gaming", "Singing"],
+},
+{
     firstName: "Pomu",
     lastName: "Rainpuff",
     DOB: 2000,
@@ -30,16 +30,30 @@ const Pomu = {
     age: function () {
         return year - this.DOB;
     },
-    siblings: {},
+    siblings: [],
     spouse: null,
-    interests: [Singing, MetalGearSolid, Gaming, Idols],
+    interests: ["Singing", "Metal Gear Solid", "Gaming", "Idols"],
 }
+];
+console.log();
+vtubers.forEach((vtuber) => console.log(vtuber.firstName)); 
+const graduates = students.filter((student)=> student.graduated ===true);
+console.log(graduates);
+vtubers.forEach(function (vtuber) {
+    console.log(vtuber);
+});
 
-function objects() {
-    const vtubers = [Ina, Mumei, Pomu];
-    console.log(vtubers);
-}
-objects();
+/* let nums = [1,2,3,4,5]; //access indivudal elements
+let movies = ["SW", "Marvel" , "Barbie"];
+//access individual elements from list/array index 
+console.log(nums[0]);
+console.log(nums[nums.length - 1]); //gets last item
+nums.forEach((el) => console.log(el)); //for each loop. For every number in the array, something will happen
+movies.forEach((movie) => console.log(movie));
+nums.forEach(function (el){
+console.log(el);
+}); */
+
 //  === arrays ===
 
 // you can store multiple variables into an "array" for later access
