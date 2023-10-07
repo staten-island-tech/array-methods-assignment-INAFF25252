@@ -41,6 +41,17 @@ const vtubers = [{
     },
     spouse: null,
     interests: ["Pokemon", "Drawing", "Gaming", "Singing"],
+},
+{
+    firstName: "Nina",
+    lastName: "Kosaka",
+    DOB: 1989,
+    graduated: true,
+    age: function () {
+        return year - this.DOB;
+    },
+    spouse: null,
+    interests: ["Wine", "Mothering", "Crab Gaming", "Ethyria"],
 }
 ];
 console.log();
@@ -52,8 +63,8 @@ vtubers.forEach(function (vtuber) {
 
 const graduated = vtubers.filter((vtuber)=> vtuber.graduated ===true);
 console.log(graduated);
-
-/* let nums = [1,2,3,4,5]; //access indivudal elements
+/* 
+let nums = [1,2,3,4,5]; //access indivudal elements
 let movies = ["SW", "Marvel" , "Barbie"];
 //access individual elements from list/array index 
 console.log(nums[0]);
@@ -62,8 +73,8 @@ nums.forEach((el) => console.log(el)); //for each loop. For every number in the 
 movies.forEach((movie) => console.log(movie));
 nums.forEach(function (el){
 console.log(el);
-}); */
-
+}); 
+ */
 //  === arrays ===
 
 // you can store multiple variables into an "array" for later access
@@ -99,8 +110,8 @@ console.log(firstElem);
 
 exampleArr.unshift(1000); // insert 1000 to the beginning of the array
 console.log(exampleArr);
-
-// === for each and other methods ===
+ */
+/* // === for each and other methods ===
 console.log("Array Methods Demo:");
 // if you want to do a similar function for each element in an array
 // use the forEach method loop:
@@ -132,4 +143,4 @@ const filtered = anotherArr.filter((element) => {
     return element > 5; // for .filter(), return a boolean (true | false)
     // only if the return value is true, the element is added to the new filtered array
 });
-console.log(filtered); */
+console.log(filtered);  */
