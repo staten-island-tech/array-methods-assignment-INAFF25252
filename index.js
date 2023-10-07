@@ -61,8 +61,9 @@ vtubers.forEach(function (vtuber) {
     console.log(vtuber);
 });
 
-const graduated = vtubers.filter((vtuber)=> vtuber.graduated ===true);
+const graduated = vtubers.filter((vtuber)=> {return vtuber.graduated ===true})
 console.log(graduated);
+
 /* 
 let nums = [1,2,3,4,5]; //access indivudal elements
 let movies = ["SW", "Marvel" , "Barbie"];
