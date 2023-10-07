@@ -6,19 +6,17 @@ const vtubers = [{
     age: function () {
         return year - this.DOB;
     },
-    siblings: ["Ane"],
     spouse: null,
     interests: ["Puns", "Drawing", "Sleeping", "Gaming"],
 },
 {
     firstName: "Mumei",
     lastName: "Nanashi",
-    DOB: 0,
+    DOB: 2001,
     graduated: false,
     age: function () {
         return year - this.DOB;
     },
-    siblings: [],
     spouse: null,
     interests: ["Drawing", "Destroying", "Gaming", "Singing"],
 },
@@ -30,9 +28,19 @@ const vtubers = [{
     age: function () {
         return year - this.DOB;
     },
-    siblings: [],
     spouse: null,
     interests: ["Singing", "Metal Gear Solid", "Gaming", "Idols"],
+},
+{
+    firstName: "Sana",
+    lastName: "Tsukumo",
+    DOB: 1998,
+    graduated: true,
+    age: function () {
+        return year - this.DOB;
+    },
+    spouse: null,
+    interests: ["Pokemon", "Drawing", "Gaming", "Singing"],
 }
 ];
 console.log();
