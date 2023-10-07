@@ -1,3 +1,4 @@
+let year = 2023 
 const vtubers = [{
     firstName: "Ina'nis",
     lastName: "Ninomae",
