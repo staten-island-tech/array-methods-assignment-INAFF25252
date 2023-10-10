@@ -57,11 +57,13 @@ const vtubers = [{
 }
 ];
 console.log();
-vtubers.forEach((vtuber) => console.log(vtuber.firstName)); 
+vtubers.forEach((vtuber) => console.log(vtuber.firstName)); //arrow function
 
-vtubers.forEach(function (vtuber) {
-    console.log(vtuber);
-});
+vtubers.forEach((vtuber) =>  {
+    vtuber.interests.forEach((hobbies) =>{ //nested forEach loop
+    console.log(hobbies);
+})
+})
 
 const graduated = vtubers.filter((vtuber)=> {return vtuber.graduated ===true})
 console.log(graduated);
