@@ -1,4 +1,5 @@
-let year = 2023 
+const date = new Date();
+let year = date.getFullYear();
 const vtubers = [{
     firstName: "Ina'nis",
     lastName: "Ninomae",
