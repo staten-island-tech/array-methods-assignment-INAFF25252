@@ -1,6 +1,7 @@
 const date = new Date();
 let year = date.getFullYear();
 const vtubers = [{
+    id:1,
     firstName: "Ina'nis",
     lastName: "Ninomae",
     DOB: 1999,
@@ -12,6 +13,7 @@ const vtubers = [{
     interests: ["Puns", "Drawing", "Sleeping", "Gaming"],
 },
 {
+    id:2,
     firstName: "Mumei",
     lastName: "Nanashi",
     DOB: 2001,
@@ -23,6 +25,7 @@ const vtubers = [{
     interests: ["Drawing", "Destroying", "Gaming", "Singing"],
 },
 {
+    id:3,
     firstName: "Pomu",
     lastName: "Rainpuff",
     DOB: 2000,
@@ -34,6 +37,7 @@ const vtubers = [{
     interests: ["Singing", "Metal Gear Solid", "Gaming", "Idols"],
 },
 {
+    id:4,
     firstName: "Sana",
     lastName: "Tsukumo",
     DOB: 1998,
@@ -45,6 +49,7 @@ const vtubers = [{
     interests: ["Pokemon", "Drawing", "Gaming", "Singing"],
 },
 {
+    id:5,
     firstName: "Nina",
     lastName: "Kosaka",
     DOB: 1989,
@@ -57,7 +62,9 @@ const vtubers = [{
 }
 ];
 console.log();
-vtubers.forEach((vtuber) => console.log(vtuber.firstName)); //arrow function
+vtubers.forEach((vtuber) => {
+    console.log("Vtuber:", vtuber.id);
+    console.log(vtuber.firstName)}); //arrow function
 
 vtubers.forEach((vtuber) =>  {
     vtuber.interests.forEach((hobbies) =>{ //nested forEach loop
