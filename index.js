@@ -1,14 +1,14 @@
-const date = new Date();
-let year = date.getFullYear();
+/* const date = new Date();
+let year = date.getFullYear(); */
 const vtubers = [{
     id:1,
     firstName: "Ina'nis",
     lastName: "Ninomae",
     DOB: 1999,
     graduated: false,
-    age: function () {
+   /*  age: function () {
         return year - this.DOB;
-    },
+    }, */
     spouse: null,
     interests: ["Puns", "Drawing", "Sleeping", "Gaming"],
 },
@@ -18,9 +18,9 @@ const vtubers = [{
     lastName: "Nanashi",
     DOB: 2001,
     graduated: false,
-    age: function () {
+/*     age: function () {
         return year - this.DOB;
-    },
+    }, */
     spouse: null,
     interests: ["Drawing", "Destroying", "Gaming", "Singing"],
 },
@@ -30,9 +30,9 @@ const vtubers = [{
     lastName: "Rainpuff",
     DOB: 2000,
     graduated: false,
-    age: function () {
+/*     age: function () {
         return year - this.DOB;
-    },
+    }, */
     spouse: null,
     interests: ["Singing", "Metal Gear Solid", "Gaming", "Idols"],
 },
@@ -42,9 +42,9 @@ const vtubers = [{
     lastName: "Tsukumo",
     DOB: 1998,
     graduated: true,
-    age: function () {
+/*     age: function () {
         return year - this.DOB;
-    },
+    }, */
     spouse: null,
     interests: ["Pokemon", "Drawing", "Gaming", "Singing"],
 },
@@ -54,9 +54,9 @@ const vtubers = [{
     lastName: "Kosaka",
     DOB: 1989,
     graduated: true,
-    age: function () {
+/*     age: function () {
         return year - this.DOB;
-    },
+    }, */
     spouse: null,
     interests: ["Wine", "Mothering", "Crab Gaming", "Ethyria"],
 }
